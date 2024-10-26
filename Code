@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joey's Buy - Coming Soon</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            color: #333;
+            text-align: center;
+            flex-direction: column;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 10px;
+        }
+        .special-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <a href="special.html" class="special-button">Special Access</a>
+    <div>
+        <h1>Coming Soon</h1>
+        <p>Join our Discord server!</p>
+        <a href="https://discord.gg/YOUR_SERVER_LINK" target="_blank">Click here to join</a>
+    </div>
+</body>
+</html>
